@@ -15,5 +15,3 @@ RUN mkdir /spectre-meltdown-checker
 COPY --from=0 /spectre-meltdown-checker /spectre-meltdown-checker
 
 ENTRYPOINT ["/spectre-meltdown-checker/spectre-meltdown-checker.sh"]
-
-CMD ["--help"]
